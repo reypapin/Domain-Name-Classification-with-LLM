@@ -1,6 +1,6 @@
 # Data Folder README
 
-This folder contains four CSV files, each with a collection of domain names. The domain names are unlabeled, but the filenames indicate the type of domains they contain. The data is structured for training and validation purposes, which I utilize in my notebooks.
+This folder contains four CSV files, each with a collection of domain names. The domain names are labeled, and the filenames indicate the type of domains they contain. The data is structured for training and validation purposes, which I utilize in my notebooks.
 
 ## Files
 
