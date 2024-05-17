@@ -30,19 +30,12 @@ You should have at least 8 GB of RAM available to run the 7B models, 16 GB to ru
 
 To use a different model in your code, simply change the model name in the appropriate section of your code to one of the models listed above. For example, to use the "Mistral" model, you would use the command:
 
-
-
-Usage
-
-To use a different model in your code, simply change the model name 
-in the appropriate section of your code to one of the models listed above. 
-For example, to use the "Mistral" model, you would use the command:
-
 ollama run mistral
 
-Additionally, you need to change the model name in the payload section of your code. 
-For example, if you are currently using the "Mistral" model, your payload might look like this:
 
+Additionally, you need to change the model name in the payload section of your code. For example, if you are currently using the "Mistral" model, your payload might look like this:
+
+```python
 payload = {
     "model": "mistral",
     "temperature": 0.6,
@@ -55,8 +48,6 @@ payload = {
 
 To switch to another model, such as "Llama 3", you would change the "model" value:
 
-python
-
 payload = {
     "model": "llama3",
     "temperature": 0.6,
@@ -67,6 +58,6 @@ payload = {
     ]
 }
 
-These models can be used in the same manner as described in the notebooks, 
-allowing you to train, classify, and evaluate domain names with different model 
-architectures and sizes.
+These models can be used in the same manner as described in the notebooks, allowing you to train, classify, and evaluate domain names with different model architectures and sizes.
+
+
