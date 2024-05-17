@@ -22,19 +22,28 @@ To use the models trained in this repository:
 
 2. **Install the necessary dependencies listed in `requirements.txt`.**
     ```sh
-    pip install -r requirements.txt
+    chmod +x install.sh
+    ./install.sh
     ```
 
-3. **Use the provided scripts or notebooks to train new models or evaluate existing ones.**
-    - **Training:** Use scripts in the `scripts/` directory to preprocess data and train models.
-    - **Evaluation:** Use notebooks in the `notebooks/` directory to evaluate model performance.
+3. **Run the provided script to start Ollama and the model:**
+    ```python
+    import os
+    import threading
+    import subprocess
+    import requests
+    import json
 
-4. **Experiment with different hyperparameters, architectures, and training techniques to improve model performance.**
-    - Modify the configurations in the scripts and notebooks to test different setups.
+    def ollama():
+        os.environ['OLLAMA_HOST'] = '0.0.0.0:11434'
+        os.environ['OLLAMA_ORIGINS'] = '*'
+        subprocess.Popen(["ollama", "serve"])
 
-5. **Integrate the trained models into your applications for domain name classification tasks.**
-    - Use the trained models in your projects to classify domain names as either DGA-generated or normal.
+    ollama_thread = threading.Thread(target=ollama)
+    ollama_thread.start()
 
+    subprocess.run(["ollama", "run", "llama3"])
+    ```
 ## Contributing
 
 Contributions to this repository are welcome! If you have ideas for improvements, new features, or bug fixes, feel free to open an issue or submit a pull request.
