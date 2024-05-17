@@ -19,6 +19,9 @@ This folder contains Jupyter notebooks designed to train and evaluate models usi
 5. **ollama_openhermes_prompting_n_size.ipynb**
    - **Description:** Similar to `ollama_mistral_prompting.ipynb`, but specifically evaluates the model's performance for different training batch sizes.
 
+6. **ollama_Llama3_8B_prompting_n_size_family.ipynb**
+   - **Description:** This notebook experiments with training the Llama3 model from Ollama using three different training batch sizes, excluding the 'ramnit' family. The resulting models are then evaluated on a test dataset that contains only 'ramnit' family domains and normal domains. The objective is to observe how the model performs when encountering a specific family that was not seen during training.
+
 ## Workflow
 
 1. **Upload Datasets:** Datasets are uploaded to Google Drive.
@@ -28,6 +31,6 @@ This folder contains Jupyter notebooks designed to train and evaluate models usi
 5. **Classify Domains:** Classify a domain as DGA or normal using the trained model.
 6. **Evaluate Model:** Evaluate the model's performance on a test dataset and display the metrics.
 
-These notebooks provide a comprehensive approach to training, classifying, and evaluating domain names using different Ollama models. Each notebook's name indicates the specific model used, and the new notebooks `ollama_Llama3_8B_prompting_n_size.ipynb` and `ollama_openhermes_prompting_n_size.ipynb` specifically focus on evaluating the models' performance for different training batch sizes.
+These notebooks provide a comprehensive approach to training, classifying, and evaluating domain names using different Ollama models. Each notebook's name indicates the specific model used. The new notebooks, `ollama_Llama3_8B_prompting_n_size.ipynb` and `ollama_openhermes_prompting_n_size.ipynb`, specifically focus on evaluating the models' performance for different training batch sizes. The `ollama_Llama3_8B_prompting_n_size_family.ipynb` notebook evaluates how the Llama3 model performs when trained without the 'ramnit' family and tested on a dataset including only 'ramnit' family domains and normal domains.
 
 
