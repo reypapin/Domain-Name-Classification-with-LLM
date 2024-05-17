@@ -45,9 +45,9 @@ payload = {
         {"role": "user", "content": question}
     ]
 }
-
+```
 To switch to another model, such as "Llama 3", you would change the "model" value:
-
+```
 payload = {
     "model": "llama3",
     "temperature": 0.6,
@@ -57,7 +57,7 @@ payload = {
         {"role": "user", "content": question}
     ]
 }
-
+```
 These models can be used in the same manner as described in the notebooks, allowing you to train, classify, and evaluate domain names with different model architectures and sizes.
 
 
