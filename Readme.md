@@ -16,8 +16,8 @@ To use the models trained in this repository:
 
 1. **Clone the repository to your local machine.**
     ```sh
-    git clone https://github.com/yourusername/domain-classification.git
-    cd domain-classification
+    git clone https://github.com/reypapin/Context-Learning-.git
+    cd Contex-Learning-
     ```
 
 2. **Install the necessary dependencies listed in `requirements.txt`.**
@@ -34,32 +34,6 @@ To use the models trained in this repository:
 
 5. **Integrate the trained models into your applications for domain name classification tasks.**
     - Use the trained models in your projects to classify domain names as either DGA-generated or normal.
-
-## Repository Structure
-
-domain-classification/
-├── data/ # Contains datasets used for training and evaluation
-│ ├── df_dga_train.csv
-│ ├── df_dga_test.csv
-│ ├── df_normal_train.csv
-│ └── df_normal_test.csv
-├── models/ # Includes trained model checkpoints and configurations
-│ └── checkpoints/
-├── scripts/ # Contains utility scripts for data preprocessing, training, and evaluation
-│ ├── preprocess.py
-│ ├── train.py
-│ └── evaluate.py
-├── notebooks/ # Jupyter notebooks demonstrating model training and evaluation workflows
-│ ├── ollama_Llama3_8B_prompting.ipynb
-│ ├── ollama_solar_prompting.ipynb
-│ └── ollama_mistral_prompting.ipynb
-├── docs/ # Contains bibliographic documents and references
-│ ├── paper1.pdf
-│ ├── manual1.pdf
-│ └── report1.pdf
-├── requirements.txt # Lists the dependencies required to run the code
-└── README.md # This README file
-
 
 ## Contributing
 
