@@ -1,6 +1,6 @@
 # Notebooks Folder README
 
-This folder contains three Jupyter notebooks, each designed to train and evaluate models using datasets of domain names. The notebooks were created in Google Colab, where I upload the datasets to my Google Drive and access them from Colab. Each notebook installs the necessary dependencies for using Ollama models, processes labeled domains through prompts to train the models, and evaluates the models' performance on a test dataset.
+This folder contains Jupyter notebooks designed to train and evaluate models using datasets of domain names. The notebooks were created in Google Colab, where datasets are uploaded to Google Drive and accessed from Colab. Each notebook installs the necessary dependencies for using Ollama models, processes labeled domains through prompts to train the models, and evaluates the models' performance on a test dataset.
 
 ## Notebooks
 
@@ -13,6 +13,12 @@ This folder contains three Jupyter notebooks, each designed to train and evaluat
 3. **ollama_mistral_prompting.ipynb**
    - **Description:** Employs the Mistral model from Ollama. This notebook follows the same procedure: uploading datasets to Google Drive, installing dependencies, training the model with labeled domains, and evaluating the model's performance on a test dataset with relevant metrics.
 
+4. **ollama_Llama3_8B_prompting_n_size.ipynb**
+   - **Description:** Similar to `ollama_Llama3_8B_prompting.ipynb`, but specifically evaluates the model's performance for different training batch sizes.
+
+5. **ollama_openhermes_prompting_n_size.ipynb**
+   - **Description:** Similar to `ollama_mistral_prompting.ipynb`, but specifically evaluates the model's performance for different training batch sizes.
+
 ## Workflow
 
 1. **Upload Datasets:** Datasets are uploaded to Google Drive.
@@ -22,5 +28,6 @@ This folder contains three Jupyter notebooks, each designed to train and evaluat
 5. **Classify Domains:** Classify a domain as DGA or normal using the trained model.
 6. **Evaluate Model:** Evaluate the model's performance on a test dataset and display the metrics.
 
-These notebooks provide a comprehensive approach to training, classifying, and evaluating domain names using different Ollama models. Each notebook's name indicates the specific model used.
+These notebooks provide a comprehensive approach to training, classifying, and evaluating domain names using different Ollama models. Each notebook's name indicates the specific model used, and the new notebooks `ollama_Llama3_8B_prompting_n_size.ipynb` and `ollama_openhermes_prompting_n_size.ipynb` specifically focus on evaluating the models' performance for different training batch sizes.
+
 
