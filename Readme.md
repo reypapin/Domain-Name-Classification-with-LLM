@@ -45,11 +45,7 @@ Contributions to this repository are welcome! If you have ideas for improvements
 4. **Push your changes to your fork.**
 5. **Submit a pull request to the main repository.**
 
-## References
 
-This project builds upon a range of research and methodologies. For a comprehensive understanding, please refer to the documents in the `docs/` folder. Whenever you refer to these documents in your code or project documentation, ensure to cite them properly to acknowledge the original authors and sources.
 
----
 
-Thank you for using and contributing to this project! Your efforts help make domain name classification more robust and reliable.
 
