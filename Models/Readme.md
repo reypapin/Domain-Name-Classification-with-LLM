@@ -1,4 +1,4 @@
-Models Folder README
+#Models Folder README
 
 This folder is intended to provide information on the various models from Ollama 
 that can be utilized in the code. By simply changing the model name in the code, 
