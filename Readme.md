@@ -16,8 +16,8 @@ To use the models trained in this repository:
 
 1. **Clone the repository to your local machine.**
     ```sh
-    git clone https://github.com/reypapin/Context-Learning-.git
-    cd Contex-Learning-
+    git clone https://github.com/reypapin/Domain-Name-Classification-with-Contextual-Learning.git
+    cd Domain-Name-Classification-with-Contextual-Learning
     ```
 
 2. **Install the necessary dependencies listed in `requirements.txt`.**
