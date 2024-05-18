@@ -22,6 +22,9 @@ This folder contains Jupyter notebooks designed to train and evaluate models usi
 6. **ollama_Llama3_8B_prompting_n_size_family.ipynb**
    - **Description:** This notebook experiments with training the Llama3 model from Ollama using three different training batch sizes, excluding the 'ramnit' family. The resulting models are then evaluated on a test dataset that contains only 'ramnit' family domains and normal domains. The objective is to observe how the model performs when encountering a specific family that was not seen during training.
 
+7. **ollama_Llama3_8B_prompting_n_size_feature_comparation.ipynb**
+   - **Description:** This notebook compares the performance of the Llama3 8B model using two types of prompts: one with domain features such as length, number of vowels, consonants, digits, hyphens, presence of numbers, and top-level domain, and another without these features. The models are evaluated with training batch sizes of 100, 200, and 500. The results indicate that the model without domain features performs better than the one with features.
+
 ## Workflow
 
 1. **Upload Datasets:** Datasets are uploaded to Google Drive.
