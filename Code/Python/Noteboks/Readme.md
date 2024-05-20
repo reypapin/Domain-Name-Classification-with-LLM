@@ -28,6 +28,9 @@ This folder contains Jupyter notebooks designed to train and evaluate models usi
 8. **ollama_mistral_test_2_prompt_reason.ipynb**
    - **Description:** Introduces a new notebook where the Mistral model from Ollama undergoes testing using a two-prompt approach. In the first prompt, the model is presented with a set number of labeled domains to learn from, followed by 10 unlabeled domains for classification and a brief reasoning of its decision. The second prompt incorporates the question and response from the first prompt, along with the labels of the 10 classified domains, aiming to refine the model's responses and analyze the validity of its reasoning. Additionally, the model is tasked with classifying a new domain.
 
+9. **ollama_mistral_8B_prompting_n_size.ipynb**
+   - **Description:** In this notebook, the Mistral model is evaluated with different training batch sizes: 100, 1000, and 1500. The notebook uses a prompt where labeled sample domains are provided, and the model is asked to evaluate a new domain name. The purpose of this notebook is to compare the results with those from another notebook that includes reasoning in its prompt. Ultimately, the results show that the prompt with reasoning performs better than the one without reasoning.
+
 ## Workflow
 
 1. **Upload Datasets:** Datasets are uploaded to Google Drive.
