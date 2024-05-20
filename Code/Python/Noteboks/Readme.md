@@ -25,6 +25,9 @@ This folder contains Jupyter notebooks designed to train and evaluate models usi
 7. **ollama_Llama3_8B_prompting_n_size_feature_comparation.ipynb**
    - **Description:** This notebook compares the performance of the Llama3 8B model using two types of prompts: one with domain features such as length, number of vowels, consonants, digits, hyphens, presence of numbers, and top-level domain, and another without these features. The models are evaluated with training batch sizes of 100, 200, and 500. The results indicate that the model without domain features performs better than the one with features.
 
+8. **ollama_mistral_test_2_prompt_reason.ipynb**
+   - **Description:** Introduces a new notebook where the Mistral model from Ollama undergoes testing using a two-prompt approach. In the first prompt, the model is presented with a set number of labeled domains to learn from, followed by 10 unlabeled domains for classification and a brief reasoning of its decision. The second prompt incorporates the question and response from the first prompt, along with the labels of the 10 classified domains, aiming to refine the model's responses and analyze the validity of its reasoning. Additionally, the model is tasked with classifying a new domain.
+
 ## Workflow
 
 1. **Upload Datasets:** Datasets are uploaded to Google Drive.
