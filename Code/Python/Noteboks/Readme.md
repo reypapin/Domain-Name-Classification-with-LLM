@@ -31,6 +31,9 @@ This folder contains Jupyter notebooks designed to train and evaluate models usi
 9. **ollama_mistral_8B_prompting_n_size.ipynb**
    - **Description:** In this notebook, the Mistral model is evaluated with different training batch sizes: 100, 1000, and 1500. The notebook uses a prompt where labeled sample domains are provided, and the model is asked to evaluate a new domain name. The purpose of this notebook is to compare the results with those from another notebook that includes reasoning in its prompt. Ultimately, the results show that the prompt with reasoning performs better than the one without reasoning.
 
+10. **ollama_Llama3_8B_prompting_n_size_family1.ipynb**
+   - **Description:** This notebook experiments with training the Llama3 model from Ollama using three different training batch sizes, excluding the 'fobber' family. The resulting models are then evaluated on a test dataset that contains only 'ramnit' family domains and normal domains. The objective is to observe how the model performs when encountering a specific family that was not seen during training.
+
 ## Workflow
 
 1. **Upload Datasets:** Datasets are uploaded to Google Drive.
