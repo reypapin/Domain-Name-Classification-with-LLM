@@ -7,9 +7,9 @@ This folder contains the bibliographic documents and references that were utiliz
 1. **Research Papers**
    - **Description:** Collection of academic papers and articles that provide foundational knowledge and state-of-the-art techniques related to the project.
    - **Files:**
-     - `paper1.pdf` - Title of Paper 1
-     - `paper2.pdf` - Title of Paper 2
-     - `paper3.pdf` - Title of Paper 3
+     - `paper1.pdf` - Many-Shot In-Context Learning
+     - `paper2.pdf` - Self-Generated In-Context Learning
+     - `paper3.pdf` - Text Classification via Large Language Models
 
 2. **Technical Documentation**
    - **Description:** Manuals, guidelines, and specifications that detail the technical aspects and standards followed in the code development.
