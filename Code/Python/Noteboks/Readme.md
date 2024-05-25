@@ -34,6 +34,10 @@ This folder contains Jupyter notebooks designed to train and evaluate models usi
 10. **ollama_Llama3_8B_prompting_n_size_family1.ipynb**
     - **Description:** This notebook experiments with training the Llama3 model from Ollama using three different training batch sizes, excluding the 'fobber' family. The resulting models are then evaluated on a test dataset that contains only 'ramnit' family domains and normal domains. The objective is to observe how the model performs when encountering a specific family that was not seen during training.
 
+11. **Llama3_eval_JS.ipynb**
+    - **Description:** This notebook evaluates the Llama3_8B model from Ollama using different families of DGAs. We select 30 sets, each consisting of 100 domains, composed of 50 DGA domains from a specific family and 50 normal domains. These 30 batches are evaluated by the model, and we calculate the mean and standard deviation for the metrics. For each family, the files containing the predictions and the actual labels are saved.
+
+
 ## Workflow
 
 1. **Upload Datasets:** Datasets are uploaded to Google Drive.
