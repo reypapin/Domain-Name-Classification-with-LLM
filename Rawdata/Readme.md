@@ -15,5 +15,5 @@ This folder contains the evaluation files for the OPT350M and Labin models. For 
 3. **resultsLlama3_L2k**
    - **Description:** This folder contains results of Llama3_8B for 2000 domains of sample.
 
-3. **resultsLlama3_L05k**
+4. **resultsLlama3_L05k**
    - **Description:** This folder contains results of Llama3_8B for 500 domains of sample.
