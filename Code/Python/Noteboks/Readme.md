@@ -37,6 +37,10 @@ This folder contains Jupyter notebooks designed to train and evaluate models usi
 11. **Llama3_eval_JS.ipynb**
     - **Description:** This notebook evaluates the Llama3_8B model from Ollama using different families of DGAs. We select 30 sets, each consisting of 100 domains, composed of 50 DGA domains from a specific family and 50 normal domains. These 30 batches are evaluated by the model, and we calculate the mean and standard deviation for the metrics. For each family, the files containing the predictions and the actual labels are saved.
 
+12. **Test_Llama3_FineTuning.ipynb**
+    - **Description:** This notebook evaluates the fine-tuning performance of the Llama3 8B model using specific adapter loading techniques. It assesses the model's capability to classify domain names as either DGA or normal across various DGA families. Each family is segmented into chunks of 50 domains, which are matched with blocks of legitimate domains. The first 30 matched blocks are evaluated, and the deviation in metrics between these blocks is calculated. The notebook provides flexibility to run evaluations for all families across 30 iterations or for a selected number of families. Additionally, it allows for iterative evaluations where initial runs cover a specified number of chunks per family, followed by continuation. Evaluation metrics are printed during execution, and results for each family are saved as files for future reference. This notebook was executed on Google Colab using a T4 GPU.
+
+
 
 ## Workflow
 
