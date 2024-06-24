@@ -1,6 +1,6 @@
 # Data Folder README
 
-This folder contains the files to carry out the evaluations of the models and also has a file called train_sample that contains 2021 domains that were used as samples for the prompt. The training files for the OPT350M model are not included because they are very large, but you can write to reynierleyvalao@gmail.com if you need the training files.
+This folder contains the files to carry out the evaluations of the models and also has a file called train_sample that contains 2021 domains that were used as samples for the prompt. The training files for the OPT350M model and Llama3_8B are not included because they are very large, but you can write to reynierleyvalao@gmail.com if you need the training files.
 
 ## Files
 
