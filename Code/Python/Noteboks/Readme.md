@@ -40,7 +40,19 @@ This folder contains Jupyter notebooks designed to train and evaluate models usi
 12. **Test_Llama3_FineTuning.ipynb**
     - **Description:** This notebook evaluates the fine-tuning performance of the Llama3 8B model using specific adapter loading techniques. It assesses the model's capability to classify domain names as either DGA or normal across various DGA families. Each family is segmented into chunks of 50 domains, which are matched with blocks of legitimate domains. The first 30 matched blocks are evaluated, and the deviation in metrics between these blocks is calculated. The notebook provides flexibility to run evaluations for all families across 30 iterations or for a selected number of families. Additionally, it allows for iterative evaluations where initial runs cover a specified number of chunks per family, followed by continuation. Evaluation metrics are printed during execution, and results for each family are saved as files for future reference. This notebook was executed on Google Colab using a T4 GPU.
 
+13. **Script_FineTuning_Llama3_8B.py**
 
+The script (`Script_FineTuning_Llama3_8B.py`) in this repository performs fine-tuning of a causal language model using the Meta-Llama 3-8B model from Huging Face. Below is a breakdown of its functionalities:
+
+- **Environment Setup:** Sets environment variables to disable WandB integration and tokenizer parallelism, and specifies the notebook name for tracking.
+  
+- **Model Loading and Configuration:** Loads the Meta-Llama 3-8B model with Bits and Bytes configuration for 4-bit quantization and sets up the model tokenizer. PEFT (Partial Execution Fine-Tuning) configuration is applied to modify specific model modules for optimal training.
+
+- **Training Setup:** Configures training arguments such as batch size, learning rate, gradient accumulation steps, and FP16 usage. The dataset (`train_2M.csv`) is loaded and split into training and validation sets. Prompts are formatted to include domain and label information.
+
+- **Training and Evaluation:** Utilizes the SFTTrainer to train the model on the prepared datasets. The script evaluates the model's performance using specified evaluation strategies and saves the trained model to the current directory.
+
+This script leverages advanced techniques from the Hugging Face ecosystem, including transformers and custom configurations, to fine-tune models for domain classification tasks efficiently. It was executed on a GPU with 24GB of memory.
 
 ## Workflow
 
