@@ -20,8 +20,8 @@ To use the models and evaluation scripts in this repository:
 
 1. **Clone the repository to your local machine.**
     ```sh
-    git clone https://github.com/reypapin/Domain-Name-Classification-with-Contextual-Learning.git
-    cd Domain-Name-Classification-with-Contextual-Learning
+    git clone https://github.com/reypapin/Domain-Name-Classification-with-LLM.git
+    cd Domain-Name-Classification-with-LLM
     ```
 
 2. **Install the necessary dependencies listed in `requirements.txt`.**
