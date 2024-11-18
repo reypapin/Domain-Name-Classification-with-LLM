@@ -65,7 +65,7 @@ Contributions to this repository are welcome! If you have ideas for improvements
 
 ## References
 
-For more details on the research and methodologies used, please refer to the accompanying paper: *"Enhancing Cybersecurity: DGA Detection Using Large Language Models"* by Reynier Leyva La O et al.
+For more details on the research and methodologies used, please refer to the accompanying paper: *"LLMs for Domain Generation Algorithm Detection"* by Reynier Leyva La O et al.
 
 
 
