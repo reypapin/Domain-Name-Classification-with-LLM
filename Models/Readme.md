@@ -1,6 +1,6 @@
 # Models Folder README
 
-This folder is intended to provide information on the various models from Ollama that can be utilized in the code. By simply changing the model name in the code, you can switch between different models available in the Ollama library. Below is a table of example models that can be downloaded and used.
+This folder is intended to provide information on the various models from Ollama that can be utilized in the code. By simply changing the model name in the code, you can switch between different models available in the Ollama library. Below is a table of example models that can be downloaded and used. The fine tuning model is in the Hugging Face repository: https://huggingface.co/Reynier/Llama3_8B-DGA-Detector.
 
 ## Model Library
 
