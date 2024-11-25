@@ -1,4 +1,4 @@
-# Domain Name Classification with Contextual Learning
+# Domain Name Classification Using LLM with Contextual Learning and Supervised Fine-Tuning
 
 This repository contains the code for training and evaluating models to classify domain names into two categories: Domain Generation Algorithms (DGAs) and normal domain names, using contextual learning techniques. The primary programming language used for development is Python.
 
