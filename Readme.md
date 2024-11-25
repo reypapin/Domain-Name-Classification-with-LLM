@@ -67,7 +67,7 @@ Contributions to this repository are welcome! If you have ideas for improvements
 
 For more details on the research and methodologies used, please refer to the accompanying paper: *"LLMs for Domain Generation Algorithm Detection"* by Reynier Leyva La O et al.
 
-
+La O, R. L., Catania, C. A., & Parlanti, T. (2024). LLMs for Domain Generation Algorithm Detection. arXiv preprint arXiv:2411.03307.
 
 
 
